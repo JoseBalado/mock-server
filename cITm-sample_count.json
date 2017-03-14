@@ -1,0 +1,17 @@
+{
+  "QueryTime": "04-01-2017T14:05:25Z",
+  "QueryType": "Sample count",
+  "Version": "1",
+  "Results": [
+    {
+      "NonStat_Open": 6,
+      "NonStat_Pending": 2,
+      "NonStat_Processing": 12,
+      "NonStat_Released": 4,
+      "Stat_Open": 16,
+      "Stat_Pending": 6,
+      "Stat_Processing": 7,
+      "Stat_Released": 10
+    }
+  ]
+}

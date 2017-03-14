@@ -1,0 +1,41 @@
+{
+    "QueryTime": "05-01-2017T11:10:51Z",
+    "Workareas": [
+        {
+            "Key": 18,
+            "Value": "Climent"
+        },
+        {
+            "Key": 20,
+            "Value": "Climent 2"
+        },
+        {
+            "Key": 22,
+            "Value": "Climent 3"
+        },
+        {
+            "Key": 2,
+            "Value": "SANDRA"
+        },
+        {
+            "Key": 3,
+            "Value": "WA1"
+        },
+        {
+            "Key": 16,
+            "Value": "wa_12"
+        },
+        {
+            "Key": 12,
+            "Value": "WA_6963"
+        },
+        {
+            "Key": 17,
+            "Value": "wa_digital"
+        },
+        {
+            "Key": 15,
+            "Value": "wa_tybes"
+        }
+    ]
+}

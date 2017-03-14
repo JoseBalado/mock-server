@@ -1,0 +1,47 @@
+{
+    "QueryTime": "04-01-2017T12:54:41Z",
+    "QueryType": "Locations",
+    "Version": "1",
+    "Locations": [
+        {
+            "Key": "26075",
+            "Value": "Climent Loc."
+        },
+        {
+            "Key": "26111",
+            "Value": "Lluc Location"
+        },
+        {
+            "Key": "26112",
+            "Value": "Loc1"
+        },
+        {
+            "Key": "26113",
+            "Value": "Loc2"
+        },
+        {
+            "Key": "26114",
+            "Value": "Loc3"
+        },
+        {
+            "Key": "26115",
+            "Value": "Loc4"
+        },
+        {
+            "Key": "26116",
+            "Value": "Loc5"
+        },
+        {
+            "Key": "26117",
+            "Value": "Loc6"
+        },
+        {
+            "Key": "2",
+            "Value": "default"
+        },
+        {
+            "Key": "19135",
+            "Value": "tbs"
+        }
+    ]
+}

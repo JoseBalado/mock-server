@@ -1,0 +1,15 @@
+{
+	"QueryTime":"08-03-2017T11:45:03Z",
+	"Results": {
+		"NbAbove":90,
+		"NbComplete":0,
+		"NbPending":90,
+		"Target":12,
+		"TargetConfig":"GENERIC",
+		"TATAbove":391594,
+		"TATAbovePrior":391591,
+		"TATComplete":14,
+		"TATCompletePrior":391591,
+		"WorkflowSpanName":"Order entry-Everything sent to the host"
+	}
+}

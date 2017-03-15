@@ -1,0 +1,56 @@
+{
+ "QueryTime": "14-03-2017T14:06:15Z",
+ "Results": [
+   {
+     "NbAbove": 0,
+     "NbComplete": 0,
+     "NbPending": 0,
+     "Target": 1,
+     "TargetConfig": "GENERIC",
+     "TATAbove": 0,
+     "TATAbovePrior": 0,
+     "TATComplete": 0,
+     "TATCompletePrior": 0,
+     "WorkflowSpanName": "Order entry-Everything printed"
+   },
+   {
+     "NbAbove": 0,
+     "NbComplete": 0,
+     "NbPending": 0,
+     "Target": 8,
+     "TargetConfig": "Destination 1",
+     "TargetConfigTube": "TB1",
+     "TATAbove": 0,
+     "TATAbovePrior": 0,
+     "TATComplete": 0,
+     "TATCompletePrior": 0,
+     "WorkflowSpanName": "Order entry-Everything printed"
+   },
+   {
+     "NbAbove": 0,
+     "NbComplete": 0,
+     "NbPending": 0,
+     "Target": 8,
+     "TargetConfig": "Destination 1",
+     "TargetConfigTube": "TB2",
+     "TATAbove": 0,
+     "TATAbovePrior": 0,
+     "TATComplete": 0,
+     "TATCompletePrior": 0,
+     "WorkflowSpanName": "Order entry-Everything printed"
+   },
+   {
+     "NbAbove": 0,
+     "NbComplete": 0,
+     "NbPending": 0,
+     "Target": 8,
+     "TargetConfig": "Destination 2",
+     "TargetConfigTube": "TB3",
+     "TATAbove": 0,
+     "TATAbovePrior": 0,
+     "TATComplete": 0,
+     "TATCompletePrior": 0,
+     "WorkflowSpanName": "Order entry-Everything printed"
+   }
+ ]
+}

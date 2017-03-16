@@ -30,26 +30,26 @@ app.get('/logon', (req, res) => {
 // cITm locations service
 app.get('/Monitoring/MasterDataService.svc/Locations', (req, res) => {
   console.log('cITm locations was called');
-  fs.createReadStream('cITm-locations.json').pipe(res);
+  fs.createReadStream('data/cITm-locations.json').pipe(res);
 });
 
 // cITm sample workload data service
 app.get('/Monitoring/MonitoringService.svc/sample_count', (req, res) => {
   console.log('cITm sample_count was called');
-  fs.createReadStream('cITm-sample_count.json').pipe(res);
+  fs.createReadStream('data/cITm-sample_count.json').pipe(res);
 });
 
 
 // Infinity workareas service
 app.get('/csp/acb/services/Monitoring/MasterDataService.svc/Workareas', (req, res) => {
   console.log('Infinity workareas was called');
-  fs.createReadStream('infinity-workareas.json').pipe(res);
+  fs.createReadStream('data/infinity-workareas.json').pipe(res);
 });
 
 // Infinity sample workload data service
 app.get('/csp/acb/services/Monitoring/MonitoringService.svc/inf_sample_count', (req, res) => {
   console.log('Infinity sample workload data was called');
-  fs.createReadStream('infinity-sample-workload-data.json').pipe(res);
+  fs.createReadStream('data/infinity-sample-workload-data.json').pipe(res);
 });
 
 
@@ -57,7 +57,7 @@ app.get('/csp/acb/services/Monitoring/MonitoringService.svc/inf_sample_count', (
 app.get(/inf_ovvtarget/, (req, res, next) => {
   if (req.query.workarea === '20') {
     console.log('Current TAT segmented workarea 20 was called');
-    fs.createReadStream('current_tat-workareas-segmented.json').pipe(res);
+    fs.createReadStream('data/current_tat-workareas-segmented.json').pipe(res);
   } else {
     next();
   }
@@ -66,7 +66,7 @@ app.get(/inf_ovvtarget/, (req, res, next) => {
 // Current TAT workload data service
 app.get('/*inf_ovvtarget', (req, res) => {
   console.log('Current TAT detail view data was called');
-  fs.createReadStream('current_tat-only-view-data.json').pipe(res);
+  fs.createReadStream('data/current_tat-only-view-data.json').pipe(res);
 });
 
 app.get('*', function (req, res) {

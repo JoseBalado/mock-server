@@ -46,8 +46,8 @@ router.get(/inf_ovvtarget/, (req, res, next) => {
 
 // Current TAT workload data service
 router.get('/*inf_ovvtarget', (req, res) => {
-  console.log('Current TAT detail view data was called');
-  fs.createReadStream('data/current_tat-only-view-data.json').pipe(res);
+  console.log('Current TAT "cTAT only view" / "detail view" data was called');
+  fs.createReadStream('data/current_tat-only-detail-view-data.json').pipe(res);
 });
 
 router.get('*', function (req, res) {

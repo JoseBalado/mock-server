@@ -1,41 +1,84 @@
+
 {
-    "QueryTime": "05-01-2017T11:10:51Z",
-    "Workareas": [
-        {
-            "Key": 18,
-            "Value": "Climent"
-        },
-        {
-            "Key": 20,
-            "Value": "Climent2"
-        },
-        {
-            "Key": 22,
-            "Value": "Climent3"
-        },
-        {
-            "Key": 2,
-            "Value": "SANDRA"
-        },
-        {
-            "Key": 3,
-            "Value": "WA1"
-        },
-        {
-            "Key": 16,
-            "Value": "wa_12"
-        },
-        {
-            "Key": 12,
-            "Value": "WA_6963"
-        },
-        {
-            "Key": 17,
-            "Value": "wa_digital"
-        },
-        {
-            "Key": 15,
-            "Value": "wa_tybes"
-        }
-    ]
+	"QueryTime":"24-03-2017T17:48:28Z",
+	"Workareas":[ {
+			"Key":18,
+			"Value":"Climent"
+		}, {
+			"Key":20,
+			"Value":"Climent 2"
+		}, {
+			"Key":22,
+			"Value":"Climent 3"
+		}, {
+			"Key":33,
+			"Value":"Comparison"
+		}, {
+			"Key":34,
+			"Value":"CTAT"
+		}, {
+			"Key":38,
+			"Value":"cTAT-1"
+		}, {
+			"Key":25,
+			"Value":"GRamirez- Order"
+		}, {
+			"Key":26,
+			"Value":"GRamirez-Tube"
+		}, {
+			"Key":39,
+			"Value":"JoseWA"
+		}, {
+			"Key":40,
+			"Value":"LiveView"
+		}, {
+			"Key":29,
+			"Value":"Núria - Order"
+		}, {
+			"Key":30,
+			"Value":"ORDER"
+		}, {
+			"Key":32,
+			"Value":"OverdueRequest"
+		}, {
+			"Key":35,
+			"Value":"OverdueRequest-CTAT"
+		}, {
+			"Key":24,
+			"Value":"Sanchi"
+		}, {
+			"Key":2,
+			"Value":"SANDRA"
+		}, {
+			"Key":36,
+			"Value":"TargetVerification"
+		}, {
+			"Key":31,
+			"Value":"TUBE"
+		}, {
+			"Key":37,
+			"Value":"Validacion_Gabriela"
+		}, {
+			"Key":27,
+			"Value":"WA-Order"
+		}, {
+			"Key":28,
+			"Value":"WA-Tube"
+		}, {
+			"Key":3,
+			"Value":"WA1"
+		}, {
+			"Key":16,
+			"Value":"wa_12"
+		}, {
+			"Key":12,
+			"Value":"WA_6963"
+		}, {
+			"Key":17,
+			"Value":"wa_digital"
+		}, {
+			"Key":15,
+			"Value":"wa_tybes"
+		}
+	]
 }

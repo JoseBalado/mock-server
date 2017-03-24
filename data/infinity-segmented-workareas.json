@@ -1,0 +1,144 @@
+{
+	"QueryTime":"23-03-2017T14:28:03Z",
+	"Workareas":[ {
+			"Key":25,
+			"SegmentedValues":[ {
+					"SegmentDesc":"Laboratory 1",
+					"SegmentID":15,
+					"SegmentTubeDesc":""
+				}, {
+					"SegmentDesc":"Location 1",
+					"SegmentID":14,
+					"SegmentTubeDesc":""
+				}, {
+					"SegmentDesc":"Location 2",
+					"SegmentID":16,
+					"SegmentTubeDesc":""
+				}, {
+					"SegmentDesc":"Location 3",
+					"SegmentID":28,
+					"SegmentTubeDesc":""
+				}, {
+					"SegmentDesc":"Location 4",
+					"SegmentID":29,
+					"SegmentTubeDesc":""
+				}, {
+					"SegmentDesc":"Location 5",
+					"SegmentID":30,
+					"SegmentTubeDesc":""
+				}, {
+					"SegmentDesc":"Location 6",
+					"SegmentID":31,
+					"SegmentTubeDesc":""
+				}, {
+					"SegmentDesc":"Location 7",
+					"SegmentID":32,
+					"SegmentTubeDesc":""
+				}, {
+					"SegmentDesc":"Location 8",
+					"SegmentID":33,
+					"SegmentTubeDesc":""
+				}, {
+					"SegmentDesc":"Location 9",
+					"SegmentID":34,
+					"SegmentTubeDesc":""
+				}, {
+					"SegmentDesc":"Location 10",
+					"SegmentID":35,
+					"SegmentTubeDesc":""
+				}, {
+					"SegmentDesc":"Location 11",
+					"SegmentID":36,
+					"SegmentTubeDesc":""
+				}, {
+					"SegmentDesc":"Location 12",
+					"SegmentID":37,
+					"SegmentTubeDesc":""
+				}, {
+					"SegmentDesc":"Generic",
+					"SegmentID":"",
+					"SegmentTubeDesc":""
+				}
+			],
+			"Value":"GRamirez- Order"
+		}, {
+			"Key":26,
+			"SegmentedValues":[ {
+					"SegmentDesc":"Destination 1",
+					"SegmentID":9,
+					"SegmentTubeDesc":"TB1"
+				}, {
+					"SegmentDesc":"Destination 2",
+					"SegmentID":18,
+					"SegmentTubeDesc":"TB1"
+				}, {
+					"SegmentDesc":"Destination 3",
+					"SegmentID":22,
+					"SegmentTubeDesc":"TB1"
+				}, {
+					"SegmentDesc":"Destination 4",
+					"SegmentID":23,
+					"SegmentTubeDesc":"TB1"
+				}, {
+					"SegmentDesc":"Destination 5",
+					"SegmentID":24,
+					"SegmentTubeDesc":"TB1"
+				}, {
+					"SegmentDesc":"Destination 1",
+					"SegmentID":12,
+					"SegmentTubeDesc":"TB2"
+				}, {
+					"SegmentDesc":"Destination 2",
+					"SegmentID":19,
+					"SegmentTubeDesc":"TB2"
+				}, {
+					"SegmentDesc":"Destination 3",
+					"SegmentID":25,
+					"SegmentTubeDesc":"TB2"
+				}, {
+					"SegmentDesc":"Destination 1",
+					"SegmentID":20,
+					"SegmentTubeDesc":"TB3"
+				}, {
+					"SegmentDesc":"Destination 2",
+					"SegmentID":11,
+					"SegmentTubeDesc":"TB3"
+				}, {
+					"SegmentDesc":"Destination 5",
+					"SegmentID":26,
+					"SegmentTubeDesc":"TB3"
+				}, {
+					"SegmentDesc":"Destination 1",
+					"SegmentID":17,
+					"SegmentTubeDesc":"TB10"
+				}, {
+					"SegmentDesc":"Destination 2",
+					"SegmentID":21,
+					"SegmentTubeDesc":"TB10"
+				}, {
+					"SegmentDesc":"Destination 5",
+					"SegmentID":27,
+					"SegmentTubeDesc":"TB10"
+				}, {
+					"SegmentDesc":"Generic",
+					"SegmentID":"",
+					"SegmentTubeDesc":""
+				}
+			],
+			"Value":"GRamirez-Tube"
+		}, {
+			"Key":28,
+			"SegmentedValues":[ {
+					"SegmentDesc":"Destination 1",
+					"SegmentID":8,
+					"SegmentTubeDesc":"TB1"
+				}, {
+					"SegmentDesc":"Generic",
+					"SegmentID":"",
+					"SegmentTubeDesc":""
+				}
+			],
+			"Value":"WA-Tube"
+		}
+	]
+}

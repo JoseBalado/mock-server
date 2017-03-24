@@ -23,8 +23,13 @@ router.get('/Monitoring/MonitoringService.svc/sample_count', (req, res) => {
 
 // Infinity workareas service
 router.get('/csp/acb/services/Monitoring/MasterDataService.svc/Workareas', (req, res) => {
-  console.log('Infinity workareas was called');
-  fs.createReadStream('data/infinity-workareas.json').pipe(res);
+  if (req.query.segmented === '1') {
+    console.log('Infinity "Segmented workareas" was called');
+    fs.createReadStream('data/infinity-segmented-workareas.json').pipe(res);
+  } else {
+    console.log('Infinity "Workareas" was called');
+    fs.createReadStream('data/infinity-workareas.json').pipe(res);
+  }
 });
 
 // Infinity sample workload data service
@@ -33,21 +38,15 @@ router.get('/csp/acb/services/Monitoring/MonitoringService.svc/inf_sample_count'
   fs.createReadStream('data/infinity-sample-workload-data.json').pipe(res);
 });
 
-
-// Current TAT overview segmented workareas service
-router.get(/inf_ovvtarget/, (req, res, next) => {
-  if (req.query.workarea === '20') {
-    console.log('Current TAT segmented workarea 20 was called');
-    fs.createReadStream('data/current_tat-workareas-segmented.json').pipe(res);
-  } else {
-    next();
-  }
-});
-
 // Current TAT workload data service
-router.get('/*inf_ovvtarget', (req, res) => {
-  console.log('Current TAT "cTAT only view" / "detail view" data was called');
-  fs.createReadStream('data/current_tat-only-and-detail-view-data.json').pipe(res);
+router.get(/TATOverview/, (req, res) => {
+  if (req.query.workarea === '25' || req.query.workarea === '26' || req.query.workarea === '28') {
+    console.log(`Current TAT "Segmented workarea" ${req.query.workarea} was called`);
+    fs.createReadStream('data/current-tat-segments.json').pipe(res);
+  } else {
+    console.log('Current TAT "cTAT only view" / "detail view" data was called');
+    fs.createReadStream('data/current-tat-only-and-detail-view-data.json').pipe(res);
+  }
 });
 
 router.get('*', function (req, res) {

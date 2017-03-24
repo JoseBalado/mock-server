@@ -4,11 +4,11 @@
 		"NbAbove":90,
 		"NbComplete":0,
 		"NbPending":90,
-		"Target":12,
+		"Target":14,
 		"TargetConfig":"GENERIC",
 		"TATAbove":391594,
 		"TATAbovePrior":391591,
-		"TATComplete":14,
+		"TATComplete":12,
 		"TATCompletePrior":391591,
 		"WorkflowSpanName":"Order entry-Everything sent to the host"
 	}

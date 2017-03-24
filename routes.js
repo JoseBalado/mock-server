@@ -2,9 +2,9 @@ const express = require('express');
 const fs = require('fs');
 const router = express.Router();
 
-router.get('/logon', (req, res) => {
+router.post('/csp/acb/services/logon', (req, res) => {
   console.log('logon was called');
-  fs.createReadStream('logon.json').pipe(res);
+  fs.createReadStream('data/logon.json').pipe(res);
 });
 
 
@@ -54,7 +54,7 @@ router.get('*', function (req, res) {
 });
 
 router.post('*', function (req, res) {
-  console.log(req);
+  console.log(req.path);
 });
 
 module.exports = router;

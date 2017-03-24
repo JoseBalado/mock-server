@@ -7,14 +7,16 @@ app.use(express.static('public'));
 app.use((req, res, next) => {
   if (req.method === 'OPTIONS') {
         console.log('OPTIONS was requested');
-        let headers = {};
-        headers["Access-Control-Allow-Headers"] = "Origin, X-Requested-With, Content-Type, accept, authorization";
-        headers["Access-Control-Allow-Methods"] = "GET";
-        headers["Access-Control-Allow-Origin"] = "*";
+        let headers = {
+          "Access-Control-Allow-Headers": "Origin, X-Requested-With, Content-Type, accept, authorization",
+          "Access-Control-Allow-Methods": "GET",
+          "Access-Control-Allow-Origin": "*"
+        };
         res.writeHead(200, headers);
         res.end();
   } else {
-    res.header("Access-Control-Allow-Origin", "*");
+    res.setHeader("Access-Control-Allow-Origin", "*");
+    res.writeHead(200, { 'Content-Type' : 'application/json' });
     next();
   }
 });

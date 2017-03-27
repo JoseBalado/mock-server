@@ -49,12 +49,9 @@ router.get(/TATOverview/, (req, res) => {
   }
 });
 
-router.get('*', function (req, res) {
+router.all('*', function (req, res) {
+  console.log(`router.all was called with method ${req.method}`);
   res.status(404).send('Error 404: Resource not found');
-});
-
-router.post('*', function (req, res) {
-  console.log(req.path);
 });
 
 module.exports = router;

@@ -2,8 +2,6 @@ const express = require('express');
 const app = express();
 const router = require('./routes');
 
-app.use(express.static('public'));
-
 app.use((req, res, next) => {
   if (req.method === 'OPTIONS') {
         console.log('OPTIONS was requested');
@@ -16,7 +14,7 @@ app.use((req, res, next) => {
         res.end();
   } else {
     res.setHeader("Access-Control-Allow-Origin", "*");
-    res.writeHead(200, { 'Content-Type' : 'application/json' });
+    res.setHeader("Content-Type", "application/json");
     next();
   }
 });

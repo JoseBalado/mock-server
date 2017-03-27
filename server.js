@@ -19,6 +19,16 @@ app.use((req, res, next) => {
   }
 });
 
+// catching all ENOENT events thrown by createReadStream, stop the server otherwise
+process.on('uncaughtException', function(error) {
+  if (error.code === 'ENOENT') {
+    console.log(error); 
+  } else {
+    console.log(error);
+    process.exit(1);
+  }
+});
+
 app.use('/', router);
 
 app.listen(3000, () => 
